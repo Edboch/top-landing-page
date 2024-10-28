@@ -4,6 +4,7 @@ body {
   font-family: Roboto, sans-serif;
   background-color: #1F2937;
   color: #F9FAF8;
+  margin:0;
 }
 
 .container {
@@ -42,7 +43,7 @@ li a {
 .content {
   display: flex;
   gap: 16px;
-  margin: 52px 0;
+  padding: 64px 0;
 
 }
 
@@ -77,5 +78,42 @@ button {
   width:100px;
 }
 
+/* Information container */
+.info {
+  background-color: #fff;
+  padding: 48px 0;
+}
 
+.info h1{
+  color: #1F2937;
+  text-align: center;
+  font-weight: 900;
+  margin: 0 0 54px 0;
+}
+
+.cards {
+  display:flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card p{
+  color: #474747;
+  width:200px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 8px;
+}
+.img_placeholder{
+  border:3px solid #3882F6;
+  border-radius: 8px;
+  width:200px;
+  height:200px;
+}
 
