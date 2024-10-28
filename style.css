@@ -139,3 +139,33 @@ button {
   color: #1F2937;
   font-weight: 700;
 }
+
+/* Sign up container */
+.join-us-container {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.blue-box {
+  box-sizing: border-box;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding: 24px 108px;
+  margin: 62px;
+  width:1000px;
+}
+
+.blue-box h2 {
+  margin: 0 0 10px 0
+}
+.blue-box p {
+  margin:0;
+}
+
+.blue-box button {
+  border: 1px solid #fff;
+}
