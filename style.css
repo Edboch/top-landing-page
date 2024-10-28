@@ -169,3 +169,10 @@ button {
 .blue-box button {
   border: 1px solid #fff;
 }
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
