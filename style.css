@@ -43,18 +43,23 @@ li a {
 .content {
   display: flex;
   gap: 16px;
-  padding: 64px 0;
+  margin: 8rem 0;
 
 }
 
 .right {
-  max-width: 450px;
+  max-width: 500px;
 }
 
 .left {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 8px;
+}
+
+.left button {
+  margin-top: 10px;
 }
 
 .main {
@@ -79,9 +84,10 @@ button {
 }
 
 /* Information container */
+
 .info {
   background-color: #fff;
-  padding: 48px 0;
+  padding: 4rem 0;
 }
 
 .info h1{
@@ -118,12 +124,14 @@ button {
 }
 
 /* quote container */
-.quote-container {
+.grey-wrapper {
   background-color: #E5E7EB;
-  padding: 48px;
+}
+.quote-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 800px;
+  margin: 0 auto;
 }
 
 .quote {
@@ -131,13 +139,14 @@ button {
   font-style: italic;
   font-weight: 200;
   font-size: 36px;
-  width: 800px;
-  margin-bottom: 0;
+  margin: 4rem 0 0 0;
 }
 
 .quotee {
   color: #1F2937;
   font-weight: 700;
+  text-align: right;
+  margin-bottom: 4rem;
 }
 
 /* Sign up container */
